@@ -1,0 +1,55 @@
+config_name: tracking
+crop_detections_border: false
+cw_factor: 2.5
+cw_thresh: 0.4
+detection_cfg:
+  load_dir: /home/dan97494/Projekte/Code_PBVS_Challenge/output_runtime_optimized/detections_trt_w_trt_osnet_features
+  use_occluded_detections: false
+filter_min_len: 0
+fuse_score: false
+inactive_patience: 40
+init_cfg:
+  max_iou: 1.0
+  min_score: 0.7
+matching_stage_1:
+  match_thresh: 2.3
+  metrics:
+  - diou
+  - app_cos
+  min_score: 0.5
+  track_types:
+  - active
+  - inactive
+  - new
+  weights:
+  - 1.0
+  - 4.0
+matching_stage_2:
+  match_thresh:
+  - 1.8
+  max_score: 0.5
+  metrics:
+  - diou
+  - app_cos
+  min_score: 0.2
+  track_types:
+  - active
+  weights:
+  - 1.0
+  - 4.0
+matching_stages:
+- 1
+- 2
+n_dets_for_activation: 1
+nk_factor: 0.15
+nsa_no_square: false
+output_dir: /home/dan97494/Projekte/Code_PBVS_Challenge/output_runtime_optimized
+reid_cfg:
+  ema_alpha: 0.9
+  enabled: true
+  load: true
+  use_cfu: false
+  use_ema: true
+use_cw: true
+use_hp: false
+use_nsa: true

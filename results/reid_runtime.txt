@@ -1,0 +1,1 @@
+Median runtime per image in ms:	23.6
