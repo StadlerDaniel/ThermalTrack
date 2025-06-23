@@ -103,9 +103,10 @@ As you can see in the last example, if very influencial components such as the a
 @InProceedings{Stadler_2025_CVPR,
     author    = {Stadler, Daniel and Specker, Andreas},
     title     = {A Strong Baseline for Multi-Person Tracking in Thermal Infrared Imagery},
-    booktitle = {Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR) Workshops},
+    booktitle = {Proceedings of the Computer Vision and Pattern Recognition Conference (CVPR) Workshops},
     month     = {June},
     year      = {2025},
+    pages     = {4540-4550}
 }
 ```
 
