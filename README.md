@@ -1,6 +1,6 @@
 # ThermalTrack: A Strong Baseline for Multi-Person Tracking in Thermal Infrared Imagery (CVPRW 2025)
 
-This repository contains the source code of the submission from Fraunhofer IOSB to the Thermal MOT Challenge 2025, held in conjunction with the [21st Workhsop on Perception Beyond the Visible Spectrum](https://pbvs-workshop.github.io/) at CVPR 2025. It is also the official code base of the corresponding paper "A Strong Baseline for Multi-Person Tracking in Thermal Infrared Imagery".
+This repository contains the source code of the submission from Fraunhofer IOSB to the Thermal MOT Challenge 2025, held in conjunction with the [21st Workhsop on Perception Beyond the Visible Spectrum](https://pbvs-workshop.github.io/) at CVPR 2025. It is also the official code base of the corresponding paper ["A Strong Baseline for Multi-Person Tracking in Thermal Infrared Imagery"](https://openaccess.thecvf.com/content/CVPR2025W/PBVS/html/Stadler_A_Strong_Baseline_for_Multi-Person_Tracking_in_Thermal_Infrared_Imagery_CVPRW_2025_paper.html).
 
 ## Abstract
 Multi-person tracking is a crucial component in many computer vision solutions for autonomous driving or surveillance
