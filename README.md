@@ -47,7 +47,7 @@ pip install numpy==1.23.4
 ## Download dataset and SOLIDER-REID model weights
 
 - Download the thermal MOT dataset from the official [repo](https://github.com/wassimea/thermalMOT).
-- Download the SOLIDER-REID model weights from [here](https://owncloud.fraunhofer.de/index.php/s/GViKyw3rPw7oHAv) and save them as `models/reid_weights.pth`.
+- Download the SOLIDER-REID model weights from [here](https://owncloud.fraunhofer.de/index.php/s/EMd7zZ6Ox7kCr6g) and save them as `models/reid_weights.pth`.
 
 ## Generate challenge results of the accuracy-focused version
 
